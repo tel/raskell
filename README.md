@@ -22,6 +22,13 @@ main = run $ do
   {- program here ... -}
 ```
 
+Contributing
+------------
+
+Have any idea that will help make the code in `Test.hs` look more familiar to a `C` or 
+`Ruby` programmer? Cool! Let's try it out! Please send a PR and if your contribution is 
+sufficiently twisted I'll give you a commit bit posthaste.
+
 Why?
 ----
 
