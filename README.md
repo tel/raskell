@@ -21,3 +21,24 @@ import Raskell
 main = run $ do
   {- program here ... -}
 ```
+
+Why?
+----
+
+(a.k.a. *oh sweet god, why would you do such a thing?*)
+
+Raskell is not supposed to be a *good* language. It's not even supposed to be a way 
+to learn Haskell.
+
+To be honest, it's not even a *thing*. Just a thought experiment, really.
+
+It's what happens when you strip away a lot of the power and generality that
+Haskell allows and has explored via the standard libraries and ecosystem. In its place
+we build the trappings of a pretty standard imperative language. Learning Raskell as 
+someone familiar with C or Ruby might feel like learning "purity" and "immutability" 
+directly, without also having to learn "functional".
+
+Haskell-the-language does not really force you to use higher-order functions and fancy types
+to get your work done. It's more the case that those tools are very powerful when you become 
+familiar with them. But someone can still learn a lot from Haskell-the-language before they ever
+start to learn those things. Maybe by building Raskell we can highlight those parts.
